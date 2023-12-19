@@ -10,8 +10,6 @@ import com.iiht.training.certificates.entity.Certificates;
 @Repository
 public interface CertificatesRepository extends JpaRepository<Certificates, Integer> {
 
-	List<Certificates> findByEmployeeId(Integer employeeId);
-
-	List<Certificates> findBySkillName(String skillName);
+	
 	
 }

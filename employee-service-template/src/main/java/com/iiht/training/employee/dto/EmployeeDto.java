@@ -12,23 +12,17 @@ import org.hibernate.validator.constraints.Length;
 public class EmployeeDto {
 
 	private Integer id;
-	@NotNull
-	@Length(min = 3, max = 50)
-	@Column(unique = true)
+	
 	private String username;
-	@NotNull
-	@Length(min = 5, max = 30)
+
 	private String password;
-	@NotNull
-	@Length(min = 3, max = 200)
+	
 	private String address;
-	@NotNull
-	@Min(1000000000)
-	@Max(9999999999L)
+	
 	private Long phoneNumber;
-	@NotNull
+	
 	private Double salary;
-	@NotNull
+	
 	private Integer experience;
 
 	public Integer getId() {

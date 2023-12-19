@@ -8,11 +8,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.iiht.training.employee.dto.SkillsDto;
 
-@FeignClient(name = "skills-service")
+
 public interface SkillsServiceProxy {
 
-	@GetMapping("/api/skills/by/{employeeId}")
-	public List<SkillsDto> skillsByEmployeeId(@PathVariable("employeeId") Integer id);
-	
+
+	// Add a correct method for feign client
 	
 }

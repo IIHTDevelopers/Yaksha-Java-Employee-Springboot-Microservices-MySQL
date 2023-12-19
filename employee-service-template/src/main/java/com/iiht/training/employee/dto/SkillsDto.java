@@ -9,22 +9,17 @@ import org.hibernate.validator.constraints.Length;
 public class SkillsDto {
 
 	private Integer id;
-	@NotNull
+	
 	private Integer employeeId;
-	@NotNull
-	@Length(min = 3, max = 100)
+
 	private String name;
-	@NotNull
-	@Length(min = 3, max = 100)
+	
 	private String description;
-	@NotNull
-	@Length(min = 3, max = 100)
+	
 	private String profeciencyLevel;
-	@NotNull
-	@Length(min = 3, max = 100)
+	
 	private String yearsOfExperience;
-	@NotNull
-	@Length(min = 3, max = 100)
+	
 	private String environment;
 
 	public Integer getId() {

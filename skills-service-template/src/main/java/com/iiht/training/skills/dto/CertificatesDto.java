@@ -14,27 +14,21 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 public class CertificatesDto {
 
 	private Integer id;
-	@NotNull
+	
 	private Integer employeeId;
-	@NotNull
-	@Length(min = 3, max = 50)
+	
 	private String skillName;
-	@NotNull
-	@Length(min = 3, max = 100)
+	
 	private String description;
-	@NotNull
-	@JsonFormat(pattern = "yyyy-MM-dd")
-	@PastOrPresent
+	
 	private LocalDate dateOfIssue;
-	@NotNull
-	@JsonFormat(pattern = "yyyy-MM-dd")
-	@Future
+
 	private LocalDate dateOfExpiry;
-	@NotNull
+	
 	private Integer passingScore;
-	@NotNull
+
 	private Integer maxScore;
-	@NotNull
+	
 	private Integer scorePercentage;
 
 	public Integer getId() {

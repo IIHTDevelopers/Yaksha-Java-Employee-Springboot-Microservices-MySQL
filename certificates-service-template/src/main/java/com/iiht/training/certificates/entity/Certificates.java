@@ -11,8 +11,7 @@ import javax.persistence.Id;
 @Entity
 public class Certificates {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	
 	private Integer id;
 	private Integer employeeId;
 	private String skillName;

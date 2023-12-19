@@ -36,41 +36,6 @@ public class EmployeeRestController {
 	@Autowired
 	private CertificateServiceProxy serviceProxy;
 
-	@GetMapping("/employees/{id}")
-	public ResponseEntity<EmployeeDto> getEmployeeById(@PathVariable("id") Integer id) {
-		return null;
-
-	}
-
-	@GetMapping("/employees")
-	public ResponseEntity<List<EmployeeDto>> getAllEmployees() {
-		return null;
-	}
-
-	@PostMapping("/employees")
-	public ResponseEntity<EmployeeDto> addEmployee(@Valid @RequestBody EmployeeDto employeeDto, BindingResult result) {
-		return null;
-	}
-
-	@PutMapping("/employees")
-	public ResponseEntity<EmployeeDto> updateEmployee(@Valid @RequestBody EmployeeDto employeeDto,
-			BindingResult result) {
-		return null;
-	}
-
-	@DeleteMapping("/employees/{id}")
-	public ResponseEntity<Boolean> updateEmployee(@PathVariable("id") Integer id) {
-		return null;
-	}
-
-	@GetMapping("/employees/skills/{id}")
-	public List<SkillsDto> getSkillsByEmployeeIdFeign(@PathVariable("id") Integer id) {
-		return null;
-	}
-
-	@GetMapping("/employees/certificates/{id}")
-	public List<CertificatesDto> getCertificatesByEmployeeIdFeign(@PathVariable("id") Integer id) {
-		return null;
-	}
+	
 
 }

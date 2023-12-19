@@ -35,45 +35,6 @@ public class SkillsRestController {
 	@Autowired
 	private CertificatesServiceProxy proxy;
 
-	@PostMapping("/skills")
-	public ResponseEntity<SkillsDto> addSkill(@Valid @RequestBody SkillsDto skillsDto, BindingResult result) {
-		return null;
-	}
-
-	@PutMapping("/skills")
-	public ResponseEntity<SkillsDto> updateSkill(@Valid @RequestBody SkillsDto skillsDto, BindingResult result) {
-		return null;
-	}
-
-	@DeleteMapping("/skills/{id}")
-	public ResponseEntity<Boolean> deleteSkillsById(@PathVariable("id") Integer id) {
-		return null;
-
-	}
-
-	@GetMapping("/skills")
-	public ResponseEntity<List<SkillsDto>> findAllSkills() {
-		return null;
-	}
-
-	@GetMapping("/skills/{id}")
-	public ResponseEntity<SkillsDto> skillsById(@PathVariable("id") Integer id) {
-		return null;
-	}
-
-	@GetMapping("/skills/by/{employeeId}")
-	public ResponseEntity<List<SkillsDto>> skillsByEmployeeId(@PathVariable("employeeId") Integer id) {
-		return null;
-	}
-
-	@GetMapping("/skills/certificates-by-{name}")
-	public List<CertificatesDto> getCertificatesBySkillName(@PathVariable String name) {
-		return null;
-	}
-
-	@GetMapping("/skills/certificates-by-skill-name/{name}")
-	public ResponseEntity<List<CertificatesDto>> getCertificatesBySkillNameFeign(@PathVariable String name) {
-		return null;
-	}
+	
 
 }

@@ -8,5 +8,5 @@ import com.iiht.training.employee.entity.Employee;
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Integer>{
 
-	Employee getByUsernameAndPassword(String username, String password);
+	
 }

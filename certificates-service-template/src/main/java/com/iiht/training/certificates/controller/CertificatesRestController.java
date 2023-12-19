@@ -26,45 +26,5 @@ public class CertificatesRestController {
 	@Autowired
 	private CertificatesService certificatesService;
 
-	@PostMapping("/certificates")
-	public ResponseEntity<CertificatesDto> addCertificate(@Valid @RequestBody CertificatesDto certificatesDto,
-			BindingResult result) {
-		return null;
-	}
-
-	@PutMapping("/certificates")
-	public ResponseEntity<CertificatesDto> updateCertificate(@Valid @RequestBody CertificatesDto certificatesDto,
-			BindingResult result) {
-		return null;
-	}
-
-	@DeleteMapping("/certificates/{id}")
-	public ResponseEntity<Boolean> deleteCertificateById(@PathVariable("id") Integer id) {
-		return null;
-	}
-
-	// get certificates by certificate id
-	@GetMapping("/certificates/{id}")
-	public ResponseEntity<CertificatesDto> getCertificateById(@PathVariable("id") Integer id) {
-		return null;
-	}
-
-	// get All certificates
-	@GetMapping("/certificates")
-	public ResponseEntity<List<CertificatesDto>> getAllCertificates() {
-		return null;
-	}
-
-	// get certificates by employeeId
-	@GetMapping("/certificates/employee/{employeeId}")
-	public ResponseEntity<List<CertificatesDto>> getCertificatesByEmployeeId(@PathVariable Integer employeeId) {
-		return null;
-	}
-
-	// get certificates by skillName
-	@GetMapping("/certificates/skills/{skillName}")
-	public ResponseEntity<List<CertificatesDto>> getCertificatesBySkillName(@PathVariable String skillName) {
-		return null;
-	}
-
+	
 }
