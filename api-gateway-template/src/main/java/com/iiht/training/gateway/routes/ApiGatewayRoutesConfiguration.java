@@ -11,6 +11,7 @@ public class ApiGatewayRoutesConfiguration {
 	@Bean
 	public RouteLocator gatewayRouter(RouteLocatorBuilder builder) {
 		//Implement the route
+		return null;
 	}
 
 }
