@@ -2,12 +2,7 @@ package com.iiht.training.employee.dto;
 
 import java.util.Objects;
 
-import javax.persistence.Column;
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
 
-import org.hibernate.validator.constraints.Length;
 
 public class EmployeeDto {
 

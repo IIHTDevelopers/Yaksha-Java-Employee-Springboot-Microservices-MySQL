@@ -12,6 +12,8 @@ import com.iiht.training.employee.dto.SkillsDto;
 public interface SkillsServiceProxy {
 
 
-	// Add a correct method for feign client
+	// Add a correct configuration for feign client
+	public List<SkillsDto> skillsByEmployeeId(@PathVariable("employeeId") Integer id);
+
 	
 }

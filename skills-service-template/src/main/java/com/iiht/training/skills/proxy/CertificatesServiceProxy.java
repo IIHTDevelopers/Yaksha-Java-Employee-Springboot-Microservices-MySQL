@@ -10,5 +10,6 @@ import com.iiht.training.skills.dto.CertificatesDto;
 
 public interface CertificatesServiceProxy {
 
-	//expose a correct method for feogn client 
+	// Add a correct configuration for feign client
+	public List<CertificatesDto> getCertificatesBySkillName(@PathVariable String skillName); 
 }

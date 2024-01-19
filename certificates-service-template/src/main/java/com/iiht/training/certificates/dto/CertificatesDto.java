@@ -3,11 +3,7 @@ package com.iiht.training.certificates.dto;
 import java.time.LocalDate;
 import java.util.Objects;
 
-import javax.validation.constraints.Future;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.PastOrPresent;
 
-import org.hibernate.validator.constraints.Length;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

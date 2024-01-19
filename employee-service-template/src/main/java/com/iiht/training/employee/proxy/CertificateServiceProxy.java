@@ -11,5 +11,6 @@ import com.iiht.training.employee.dto.CertificatesDto;
 
 public interface CertificateServiceProxy {
 
-	// Add the correct method for feign client
+	// Add a correct configuration for feign client
+	public List<CertificatesDto> getCertificatesByEmployeeId(@PathVariable Integer employeeId);
 }

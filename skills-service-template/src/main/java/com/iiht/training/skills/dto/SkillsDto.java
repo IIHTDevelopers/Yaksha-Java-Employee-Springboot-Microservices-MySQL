@@ -2,9 +2,7 @@ package com.iiht.training.skills.dto;
 
 import java.util.Objects;
 
-import javax.validation.constraints.NotNull;
 
-import org.hibernate.validator.constraints.Length;
 
 public class SkillsDto {
 
